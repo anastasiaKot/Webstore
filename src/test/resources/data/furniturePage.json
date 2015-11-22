@@ -1,0 +1,32 @@
+{
+    "commonData": {
+        "path": "/sale-event/furniture-and-decor.jsp"
+    },
+    "elements": [
+        {
+            "description": "Page title",
+            "type": "TITLE",
+            "value": "Furniture: Discover Home Furniture | Kohl's"
+        },
+        {
+            "description": "Kohls copyright",
+            "type": "TEXT",
+            "text": "© 2015 Kohl’s Illinois, Inc., Kohl’s® and Kohl’s brand names are trademarks of Kohl’s Illinois, Inc.",
+            "isEnabled": true,
+		"isDisplayed": true,
+		"locator": "//div[1]/div[3]/div/div[5]/div/p[1]",
+            "coordinateX": 183
+        },
+        {
+            "description": "Weekly Ads link",
+            "type": "HYPER_LINK",
+            "value": "javascript:launchCorporate('http://kohls.shoplocal.com/kohls/default.aspx')",
+            "title": "Today's Ad",
+            "isEnabled": true,
+            "isDisplayed": true,
+            "locator": "//ul[@id='top-nav-left']/li[1]/a",
+            "coordinateX": 193,
+            "coordinateY": 111
+        }
+    ]
+}
